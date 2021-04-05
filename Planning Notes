@@ -1,0 +1,38 @@
+Major Work Stages
+1.	Data Preprocessing: Text extraction/cleaning, creating a dictionary of chapters, reading level
+2.	Generated lists: vocabulary words, characters, places/major plot devices, irregular verbs, etc.
+3.	Generating necessary information for questions: sentiment analysis, named entity recognition, associations between entities, etc.
+4.	Create questions and assessment tools.
+5.	Develop a simple UI for tooling, with clean output, PDF results. 
+
+
+Generated Lists Requirements:
+•	 Vocabulary Words 
+  o	A threshold for difficulty of the Word: number of syllables, compared using some preprogram word rating system. i.e. a library that can rate words based on reading level. 
+  o	Uniqueness, do we want the words to be unique in someway any good way to do this?
+  o	Words should not be common in the chapter. We can use a frequency analysis for this. 
+  o	Do we want to separate these lists by part of speech?
+  o	What additional information about these words do we want to generate?
+•	Characters
+  o	Use spacy entity person tooling to get person list
+  o	We will need to separate mentioned people pertaining to the story versus non-character people mentioned. Ex. If the story mentioned George Washington etc. 
+    Methods to deal with this, if a person is associated with saying something, would be generally a character. If some one is quoting someone that quoted person name should not be included. 
+  o	Frequency of names mentioned. If a name is only once would we want to include it?
+  o	Name frequency used in relation to other names would suggest main character or is a true character in the story and not a name mentioned in passing. 
+  o	We will need to be able to resolve issues with nicknames.
+o	Character Information
+  	Use sentiment analysis on character to character relationship also strength of relationship. Frequency of mentions together.  Should be done chapter by chapter. This could be used for questions if it changes over time. 
+  	Determine who is the protagonist and antagonist this main need to be done at the whole book not just chapter by chapter. 
+  	Locations characters have been too. Word association with entity locations, and words like went, entered, sat, left etc. 
+  	Stretch information if we have time, age, hair color, other personal information for questions. 
+•	Locations, Organizations, & other high frequency used Entities
+  o	Use spacy entity tooling
+  o	Locations and Organizations that are important should be mentioned in relation to characters on the list. 
+  o	For other entities anything that is used in a high frequency should also be included possibly. This could be useful for questions. 
+  o	Can run sentiment analysis of characters to locations. 
+  o	Challenges will be the same place with multiple names.  Can run a similarity test for this one potentially. 
+•	Major Plot Devices
+o	  I think this will be difficult. Any ideas? Could run paragraphs through sentiment analysis and when its high polarity one way or the other, we can try to grab import sections of it as major plot devices. Could maybe associate with a lot of action verbs potentially. 
+
+
+
