@@ -58,7 +58,7 @@ df_chapters['sentence'] = sent_list
 df_chapters['word'] = word_list
 df_chapters['entitiy'] = entity_list
 
-df_chapters.to_csv('book_1.csv',index=False)
+df_chapters.to_csv('book_1.csv',index=False, encoding='utf-8-sig')
 
 #for i in range(1, len(chapters)+1): #Loops for the number of chapters in the book, starting at chapter 1
     #writeBook = open("{}.txt".format(i), "w+") #Opens a book with the name of i, if it does not exist, it creates one
