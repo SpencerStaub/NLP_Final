@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3dd8b942-36e2-4fc1-8751-b7badfca4cca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Ben Files/Book1_UniqueWords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ben Files/Book2_UniqueWords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ben Files/Book3_UniqueWords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ben Files/Book4_UniqueWords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ben Files/data/K_Levine_Book_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ben Files/data/K_Levine_Book_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ben Files/data/K_Levine_Book_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ben Files/data/K_Levine_Book_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ben Files/unique_words.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book_to_Dict.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Character Entities.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Christopher File.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_v1(book2).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_v1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_v2(book2).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_v3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_v5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_v6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_v7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Preprocess_Text_Files.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions_with_Locations.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity_recognition.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rRWqqhs5f7486EzgaC0A94lEAq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="entity_recognition" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="NLP_Group" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/opt/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/entity_recognition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dd8b942-36e2-4fc1-8751-b7badfca4cca" name="Default Changelist" comment="" />
+      <created>1618939582939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618939582939</updated>
+      <workItem from="1618939586243" duration="213000" />
+      <workItem from="1618939887604" duration="1009000" />
+      <workItem from="1618941497472" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NLP_Group$unique_words.coverage" NAME="entity_recognition Coverage Results" MODIFIED="1618940797497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

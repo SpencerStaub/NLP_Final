@@ -14,8 +14,8 @@ nlp = spacy.load('en_core_web_sm')
 # ======================================================================================================================
 # Import all files into a document corpus
 
-dir_base = 'C:/Users/super/Desktop/6312/Group Project 1/data'
-
+#dir_base = 'C:/Users/super/Desktop/6312/Group Project 1/data'
+dir_base = "/Users/kristinlevine/Documents/GitHub/NLP_Group/Ben Files/data"
 
 def read_file(file_name):
     """
