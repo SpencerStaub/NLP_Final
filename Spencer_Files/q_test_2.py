@@ -30,22 +30,29 @@ print(df_test_gb.head())
 for i in df_test_gb['sentence']:
     df_subset = input_file[input_file['sentence']==i]
     subject_line = df_subset[(df_subset['dep']=='nsubj') & (df_subset['ent_label']=='PERSON')]
-    verb_line = df_subset[(df_subset['dep'] == 'ROOT')]
-    object_line = df_subset[(df_subset['dep'] == 'dobj')]
+    verb_line = df_subset[(df_subset['pos'] == 'VERB') & (df_subset['dep'] == 'ROOT')]
+    verb_line_2 = df_subset[(df_subset['pos'] == 'VERB') & (df_subset['dep'] != 'ROOT')]
+    object_line = df_subset[((df_subset['dep'] == 'dobj') | (df_subset['dep'] == 'conj')) & (df_subset['ent_label']=='PERSON')]
     conjuct_line = df_subset[(df_subset['dep'] == 'conj')]
     adverb_line = df_subset[(df_subset['dep'] == 'advmod')]
 
     sent = subject_line["sentence"].values
     subject = subject_line["ent_word"].values
     verb = verb_line['tokens'].values
+    verb_2 = verb_line['tokens'].values 
     object = object_line['tokens'].values
     conjuct = conjuct_line['tokens'].values
     adverb = adverb_line['tokens'].values
 
-    if subject.size == 1:
-        print(subject, verb, object, conjuct, adverb)
+    if subject.size == 1 and verb.size == 1 and object.size > 1:
+        print(subject, verb, verb_2, object, conjuct, adverb)
         print(sent)
-        print("What did ", subject, " do to ", object, "and", conjuct)
+        if verb == ['said']:
+            print("What did ", subject, " say to ", object, "and", conjuct)
+        else:
+            print("What did ", subject, " do with ", object[0], "and", object[1])
+
+        print("Answer: ", verb, adverb, verb_2)
 
     # DOES NOT WORK ^^^^^^^^
 
