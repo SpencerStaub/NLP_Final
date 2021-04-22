@@ -31,21 +31,12 @@ for i in df_test_gb['sentence']:
     conjuct_line = df_subset[(df_subset['dep'] == 'conj')]
     adverb_line = df_subset[(df_subset['dep'] == 'advmod')]
 
-
-
-
-
-
-    if len(subject_line) + len(verb_line) > 2:
-        sent = subject_line["sentence"].values
-        subject = subject_line["ent_word"].values
-        verb = df_subset[(df_subset['tokens'])].values
-    if len(object_line) > 1:
-        object = df_subset[(df_subset['tokens'])].values
-    if len(conjuct_line) > 1:
-        conjuct = df_subset[(df_subset['tokens'])].values
-    if len(adverb_line) > 1:
-        adverb = df_subset[(df_subset['tokens'])].values
+    sent = subject_line["sentence"].values
+    subject = subject_line["ent_word"].values
+    verb = verb_line['tokens'].values
+    object = object_line['tokens'].values
+    conjuct = conjuct_line['tokens'].values
+    adverb = adverb_line['tokens'].values
 
     print(subject, verb, object, conjuct, adverb)
     print(sent)
