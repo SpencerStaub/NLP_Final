@@ -23,6 +23,10 @@ df_test = df_test.groupby(['sentence', 'ent_word' ,'ent_label']).size()
 
 df_test_gb = df_test.groupby(['sentence']).size().reset_index()
 
+df_test_gb = df_test_gb[df_test_gb[0] > 2]
+
+print(df_test_gb.head())
+
 for i in df_test_gb['sentence']:
     df_subset = input_file[input_file['sentence']==i]
     subject_line = df_subset[(df_subset['dep']=='nsubj') & (df_subset['ent_label']=='PERSON')]
@@ -38,8 +42,10 @@ for i in df_test_gb['sentence']:
     conjuct = conjuct_line['tokens'].values
     adverb = adverb_line['tokens'].values
 
-    print(subject, verb, object, conjuct, adverb)
-    print(sent)
+    if subject.size == 1:
+        print(subject, verb, object, conjuct, adverb)
+        print(sent)
+        print("What did ", subject, " do to ", object, "and", conjuct)
 
     # DOES NOT WORK ^^^^^^^^
 
