@@ -4,13 +4,14 @@ import os
 import nltk
 import spacy
 import pandas as pd
+import numpy as np
 
 #*******************************************************
 #Gathering info from a user
 print("Design a Quiz")
 print("Which book would you like to use?")
 print ("Here are your choices:\n")
-print("The Best Bad Luck I Ever Had \n The Lions of Little Rock\n The Paper Cowboy\n The Thing I am Most Afraid Of\n Anne of Green Gables")
+print("The Best Bad Luck I Ever Had \n The Lions of Little Rock\n The Paper Cowboy\n The Thing I am Most Afraid Of\n Anne of Green Gables\n Little Women \n The Wizard of Oz \n The Secret Garden")
 book = input()
 
 #*******************************************************
@@ -34,6 +35,18 @@ elif book == "The Thing I am Most Afraid Of":
 elif book == "Anne of Green Gables":
     narrator = ''
     text = "Book_5"
+    data = "book_1.csv"
+elif book == "Little Women":
+    narrator = ''
+    text = "Book_6"
+    data = "book_1.csv"
+elif book == "The Wizard of Oz":
+    narrator = ''
+    text = "Book_7"
+    data = "book_1.csv"
+elif book == "The Secret Garden":
+    narrator = ''
+    text = "Book_8"
     data = "book_1.csv"
 else:
     print("I'm sorry. That book is not in our database.")
@@ -123,6 +136,7 @@ if len(tp) > 0:
     chapter_persons = pd.DataFrame.from_dict(tp, orient = 'index')
     chapter_persons = chapter_persons.rename(columns = {0:'Count'})
     chapter_persons = chapter_persons.sort_values(by=['Count'], ascending = False)
+
 #print(chapter_persons)
 
 #Creating a List of the top characters in the book
@@ -191,17 +205,77 @@ else:
 
 #This will print up to three character questions per chapter
 
-if len(chapter_characters) == 0:
-    pass
-elif len(chapter_characters) == 1:
-    print("What did", narrator, "talk about with", chapter_characters[i], "?")
-elif len(chapter_characters) == 2:
-    print("What did", narrator, "talk about with", chapter_characters[i], "?")
-    print("What did", narrator, "and", chapter_characters[i+1], "discuss?")
-else:
+if len(chapter_characters) > 3:
     print("What did", narrator, "talk about with", chapter_characters[i], "?")
     print("What did", narrator, "and", chapter_characters[i+1], "discuss?")
     print("What did", narrator, "say to", chapter_characters[i+2], "?")
+elif len(chapter_characters) == 3 and narrator == '':
+    print("What did", narrator, "talk about with", chapter_characters[i], "?")
+    print("What did", narrator, "and", chapter_characters[i+1], "discuss?")
+elif len(chapter_characters) == 3 and narrator != '':
+    print("What did", narrator, "talk about with", chapter_characters[i], "?")
+    print("What did", narrator, "and", chapter_characters[i+1], "discuss?")
+    print("What did", narrator, "say to", chapter_characters[i+2], "?")
+elif len(chapter_characters) == 2:
+    print("What did", narrator, "talk about with", chapter_characters[i], "?")
+    print("What did", narrator, "and", chapter_characters[i+1], "discuss?")
+elif len(chapter_characters) == 1:
+    print("What did", narrator, "talk about with", chapter_characters[i], "?")
+else:
+    pass
+#*******************************************************
+#Printing Irregular Verbs in the chapter
+#Getting the chapter
+text_corpus = file_dict[chapter +'.txt']
+
+#lowercase everything in this corpus
+content = text_corpus.lower()
+
+#Tokenize all the words in the corpus
+doc = nlp(content)
+words = [token.text for token in doc if token.is_stop != True and token.is_punct != True and token.is_alpha]
+
+#stem all the words in the corpus
+from nltk.stem.porter import *
+porter_stemmer = PorterStemmer()
+sample_words = words
+stemmed_words = [porter_stemmer.stem(word) for word in sample_words]
+
+# Turn stemmed words into a string
+def listToString(s):
+    str1 = ""
+    for ele in s:
+        str1 += ele + ' '
+    return str1
+
+string_stemmed_words = listToString(stemmed_words)
+
+# Create a list with stems and lemmas
+def find_stem_lemma(string_stemmed_words):
+    x = []
+    token_stream = nlp(string_stemmed_words)
+    for i in token_stream:
+        if i.pos_ == "VERB":
+            x.append({"stem": i, "lemma": i.lemma_})
+    return (x)
+
+b = find_stem_lemma(string_stemmed_words)
+
+df_verb = pd.DataFrame(b, columns=['stem', 'lemma'])
+df_verb = df_verb.applymap(str)
+
+# Picking out which stems and lemmas do not match
+df_irr = df_verb.loc[df_verb['stem'] != df_verb['lemma']]
+
+# Eliminating the duplicates
+df_irr = df_irr.drop_duplicates()
+df_irr.columns = ["Irregular Verbs", "Present Tense"]
+df_irr = df_irr.drop(['Present Tense'], axis=1)
+df_irr.index = np.arange(1, len(df_irr) + 1)
+
+print("Here are irregular verbs from Chapter", chapter, "\n")
+print(df_irr.head(10))
+
 #*******************************************************
 #ADD DF APPROACH -- PERSON EXTRACTION
 
@@ -236,8 +310,12 @@ else:
         print(book, file = file)
         print("\n Chapter", chapter, file = file)
         print("\n Questions for Comprehension", file = file)
-        print("\n What did", narrator, "talk about with", chapter_characters[i], "?", file = file)
-        print("\n What did", narrator, "and", chapter_characters[i+1], "discuss?", file=file)
-        print("\n What did", narrator, "say to", chapter_characters[i+2], "?", file = file)
+        print("\n What did", narrator, "talk about with", chapter_characters[i], "?\n", file = file)
+        print("\n What did", narrator, "and", chapter_characters[i+1], "discuss?\n", file=file)
+        print("\n What did", narrator, "say to", chapter_characters[i+2], "?\n", file = file)
+        print("\nWrite the infinitive for each irregular verb", file = file)
+        print(df_irr.head(10), file = file)
+    file.close()
+
 
 
