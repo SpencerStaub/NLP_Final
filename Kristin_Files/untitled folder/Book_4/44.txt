@@ -1,0 +1,119 @@
+ 28 (or anywhere else in the MS). Should “again” be deleted?
+[KL495R494]Ahh!  That was from an old version.  Thanks for catching.
+[JL496]AU: According to https://www.timeanddate.com/calendar/?year=1993&country=1, August 17, 1993 was a Tuesday. Plus on p. 121, Hester says, “Mr. Greenberg, you must bring your amazing daughter to the candlelight vigil Katarina’s friends are organizing the first weekend in August.” And according to p. 222, Becca is going home on August 17 (“It was my last week in Vienna. I was going home next Tuesday, August 17”). Should “August 17” be changed to “August 7,” which was the first Saturday in August 1993 per the calendar cited above? 
+[KL497R496]Changed the date
+[JL498]AU: Could this be changed to “said” or “replied”?
+[JL499]AU: I suggested placing “number one” (spelled out since this is dialogue) after “streetcar” here to make sure this doesn’t read as “the best/foremost streetcar” and since this order was used elsewhere in the MS (“I was quiet as we took it partway across town and then switched back to streetcar 38”). OK?
+[KL500R499]Ok 
+[JL501]ED: Has this been addressed yet?
+[SB502R501]Checking with Legal. 
+[JL503]AU: Could this be changed to something like “told”?
+[JL504]AU: Should this be changed to “May” (since Frau Kumar seems to speak very good English elsewhere in the MS)?
+[KL505R504]Yes, just a typo
+[SB506]Can’t see Frau Kumar. 
+[KL507R506]Added bit below
+[JL508]AU: Does Frau Kumar trail off here, or does Becca interrupt her? If Becca interrupts her, I’d suggest changing this ellipsis to an em dash for clarity.
+[JL509]AU: On p. 98, it’s actually Sara who comes up with the idea of making a copy of her passport, not Becca. Here’s the relevant passage:
+
+    “Maybe,” Sara said. “But today, I helped translate and I got my stamp. I say, we had pig!” She held up her passport and shook it in the air.
+    “Don’t lose it!” I warned.
+“I make a copy,” Sara agreed[JL509].
+
+Should “I’d told Sara to make a copy[JL509]” be changed to something like “Sara had said she would make a copy[JL509]”?
+[KL510R509]fixed
+[JL511]AU: Since the day before this one was Becca and Felix’s fourth dance class (per “On Friday, Felix and I rode our bikes to dance class. This was our fourth class” on p. 204), and Felix’s birthday party was the Sunday before the first dance class (meaning the party was a day shy of four weeks ago), and they went to the police station to get the stamp an unspecified number of days before the party, it seems as though it’s actually been longer than four weeks since their trip to the police station to get the stamp. Should “Almost four weeks ago” be changed?
+[JL512]AU: Should this be changed to “a boy who must be her little brother” (in keeping with “a woman who must be her mother”)? If Becca hasn’t seen a photo of Sara’s mother before, it seems possible that she wouldn’t have seen a photo of her brother either. 
+[SB513]Can avoid? 
+[KL514R513]fixed
+[JL515]AU: I added this exclamation point for consistency with p. 193 (“She was yelling something about hair as she left. ‘Green hair!’ It didn’t make any sense”). OK?
+[KL516R515]Ok, thanks
+[SB517]Nice!
+[JL518]AU: I suggested changing this since at this point, Becca still doesn’t know whether Sara will be able to go to the ball. OK?
+[KL519R518]Works for me
+[SB520]Wasn’t it coke that had spilled on the train? 
+[JL521]AU: I suggested deleting “when she returned from the bathroom”  since the previous sentence already indicates that Sara has returned from the bathroom. OK?
+[KL522R521]Yup, works for me
+[SB523]Good tension. 
+[JL524]AU: I deleted again because earlier in this scene, Frau Kumar only “looked down at her notes” and “glanced at the paper again”—there’s no mention of her actually flipping through her notes. But to avoid repetition, could this third reference to her consulting her notes in the span of half a page or so be deleted altogether and replaced with something like “Frau Kumar said”?
+[KL525R524]Deleting “again” is fine; let’s keep the rest as is
+[SB526]Yay!!!!!! I’m just so happy for Sara!
+[KL527R526]☺
+[SB528]Yes!!!!
+[KL529R528]Yay!
+[JL530]AU: Since it was already late afternoon when the group arrived back at Katarina’s house after going to the detention center (per “By the time we all made it home, it was late afternoon” on the previous page), could this be changed to something like “Sara came down in the early evening” or “Sara came down later”?
+[KL531R530]changed
+[JL532]AU: I changed this per https://en.langenscheidt.com/german-english/heimatroman. OK?
+[KL533R532]Yup
+[SB534]Feels oddly specific for the moment. 
+[SB535]Avoid reps. 
+[KL536R535]fixed
+[SB537]Would be obvious that Sara’s talking about riding the ferris wheel. Can recast a bit so doesn’t feel so orchestrated? 
+[JL538]AU: Since “Sara smiled” appears a few paragraphs above as well, could this be changed to “Sara said”? (Since it’s already clear from context that Sara is speaking here, you could also just change this line to “Yes. Very true.”)
+[KL539R538]Deleted the smiling above – prefer to leave it here
+[SB540]Didn’t she just have a root canal a few hours ago? Gotta think she’s still in pain from that even with novcane. 
+[KL541R540]Fixed so she’s not so smily
+[JL542]AU: I suggested deleting “dark” here just to avoid repetition, since it appears later in the sentence as well. OK?
+[KL543R542]Ok
+[SB544]Maybe have Becca say this first and have Katarina respond with the other options for kids? Otherwise, Katarina is just talking at Becca and mostly info-dumping for reader. 
+[KL545R544]Good idea - done
+[JL546]AU: Since Becca has now taken seven or eight lessons with Frau Kovács, it doesn’t seem as though Katarina would need to remind her who Frau Kovács is. Could “your dance instructor[JL546]” be deleted?
+[SB547R546]Agree. 
+[SB548]Can tighten. A lot of this feels like info-dumping. 
+[KL549R548]Done
+[SB550]Maybe have Becca say this first and have Katarina respond with the other options for kids? Otherwise, Katarina is just talking at Becca and mostly info-dumping for reader. 
+[SB551]How long has it been since she’s broken fourth wall? Ensure this is done consistently. Feels a bit jarring here. 
+[KL552R551]I cut it
+[JL553]AU: I suggested adding this since the University of Vienna has multiple buildings, not just one (per https://www.univie.ac.at/en/about-us/locations-maps/university-of-vienna-locations/). OK?
+[KL554R553]Yes, that’s fine
+[SB555]Really use huge a lot throughout. 
+[SB556]Changed as Sara’s mother’s hand is awkward. 
+[KL557R556]Works for me
+[SB558]Anyway to avoid rep? 
+[JL559]AU: Could this be changed to something like “the sea of dresses that looked like wedding gowns”?
+[KL560R559]changed
+[JL561]AU: I suggested deleting “in consent” just to avoid redundancy, since the nod itself already implies consent. OK?
+[KL562R561]Yup, that’s fine
+[SB563]If Becca and crew are going to explore and show us this, we don’t really need it from Katarina’s dialogue above when she’s pinning Becca’s dress. Katarina’s dialogue there did feel pretty info-dumpy. 
+[KL564R563]You’re right. I cut above
+[JL565]I suggested adding a paragraph break here to separate Sara’s dialogue from her mother’s actions.
+[KL566R565]Works for me
+[JL567]AU: The exclamation point after “Mama” makes it unclear whether “Sara cried” is a dialogue tag or a separate sentence—meaning it’s unclear whether Sara cries out “Mama! Mama!” or whether she’s actually shedding tears here. If this is meant to be a separate sentence and she’s actually crying here, I’d suggest changing this to something like “Sara said as she started to cry as well.” But if Sara isn’t crying here and this was just meant to be a dialogue tag, I’d suggest changing it to something like “Sara called out” (which would also help avoid repetition, since “crying out” appears a few lines above). 
+[KL568R567]changed
+[JL569]I suggested adding a paragraph break here to separate Felix’s dialogue from Mai’s and Rasheed’s actions.
+[KL570R569]Works for me
+[SB571]See next page. 
+[KL572R571]I cut the repetition below
+[JL573]AU: I found this a bit confusing, since there’s no mention of Becca looking down above, plus it seems as though Becca is standing and Sara is probably sitting at this point (based on “Mrs. Tahirović sat down, and Sara put her arms around her mother. Mrs. Tahirović’s mascara ran down her face, leaving a gray smudge on the shoulder of Sara’s white gown” on the previous page). Could this be changed?
+[SB574]Can tighten? 
+[KL575R574]done
+[SB576]Above she speaks slowly and deliberately, which seems to intimate calm, no? 
+[SB577]Echoes last use above. Vary here or there. 
+[JL578]AU: Since “agreed” is used as a dialogue tag at the beginning of the next page as well (“Yeah,” he agreed. “Me too.”), could either instance of it be changed to avoid repetition?
+[JL579]AU: Since Katarina is described as speaking “near-perfect English” earlier in the MS, should this be changed to “There you are”?
+[KL580R579]Yes, I fixed
+[JL581]AU: Could “for a picnic” be added after “tomorrow” since “But after a minute, he was chatting about what he was going to bring to the picnic” appears a few lines below?
+[KL582R581]fixed
+[SB583]So they are riding bikes to the park to have a picnic? Slightly confusing as no mention above. 
+[KL584R583]fixed
+[JL585]AU: Does Becca trail off here, or does Katarina interrupt her? If Katarina interrupts, I’d suggest changing this ellipsis to an em dash for clarity.
+[JL586]AU: Could this be changed to “said”?
+[JL587]AU: Since Becca is still downstairs in the previous paragraph, could this be changed to something like “Sara and I went up to my room so she could help me finish packing[JL587]”?
+[KL588R587]fixed
+[JL589]AU: Should “how” be added here?
+[KL590R589]Yes, added
+[JL591]AU: Since there’s no reference to Becca hugging Sara earlier in this scene, should “once more” be deleted? Or should it be changed to something like “one last time”?
+[KL592R591]fixed
+[SB593]Don’t quite understand this. Had he straightened his hair or some such? 
+[SB594]In this version are Felix and his father estranged? Hasn’t resonated, so this feels a mite surprising. Maybe make another reference to it soon. 
+[KL595R594]Does this seem better here?  There wasn’t really a dad subplot for Felix in this version.
+[JL596]AU: Could this be changed to “said”?
+[SB597R596]Agree. Use is echoing. 
+[SB598]This momentarily confusing as we think this is what she’s seeing on the TV in Ms. Madden’s interview. Provide a transition phrase. 
+[KL599R598]done
+[SB600]Nice moment. 
+20    The Thing I’m Most Afraid Of
+
+The Thing I’m Most Afraid Of    19
+
+1
+

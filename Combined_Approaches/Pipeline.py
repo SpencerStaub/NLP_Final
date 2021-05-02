@@ -94,7 +94,7 @@ def extract_entities(doc_id, doc_text):
     for entity in analyzed_doc.ents:
         if entity.text.strip() != "" and entity.label_ == "PERSON":
             prev_token = analyzed_doc[entity.start - 1]
-            if prev_token.text in ("Doc", "Dr.", "Mr.", "Mrs.", 'Ms.'):
+            if prev_token.text in ("Doc", "Dr.", "Mr.", "Mrs.", 'Ms.', "Miss"):
                 name = prev_token.text + ' ' + entity.text.strip()
                 if name not in doc_persons.keys():
                     relevant_sentence = (doc_id, entity.sent.text)
@@ -162,7 +162,8 @@ people = main_char.index.tolist()
 
 #For question generation:
 #We also need to remove the narrator from this list because he/she can't talk to him/herself.
-words_remove = ['Moundville', "Negra", "Mary Lou's"]
+words_remove = ['Moundville', "Negra", "Mary Lou's", "Green Gables", "Anne Shirley", 'Mary Lou’s']
+
 if narrator in people:
     people.remove(narrator)
 else:
@@ -269,8 +270,8 @@ df_irr = df_verb.loc[df_verb['stem'] != df_verb['lemma']]
 
 # Eliminating the duplicates
 df_irr = df_irr.drop_duplicates()
-df_irr.columns = ["Irregular Verbs", "Present Tense"]
-df_irr = df_irr.drop(['Present Tense'], axis=1)
+df_irr.columns = ["Irregular Verbs", "Infinitive"]
+df_irr = df_irr.drop(['Infinitive'], axis=1)
 df_irr.index = np.arange(1, len(df_irr) + 1)
 
 print("Here are irregular verbs from Chapter", chapter, "\n")

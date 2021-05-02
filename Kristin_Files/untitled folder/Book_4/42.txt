@@ -1,0 +1,99 @@
+ 4:
+    “What’s her name again?” I asked.
+    “Sara Tahirović. I think she’s Muslim.”
+    “How old is she?”
+“Nineteen.”
+[SB134R133]Also, even five or six years seems like a lot to a twelve-year-old, so maybe change the whole sentiment, which feels adult; an adult would think it’s only a few years. To a kid, it’s a lifetime. 
+[JL135]AU: Could this be changed to “not worry if it would come out exactly right” or “not worry if it didn’t come out exactly right”?
+[JL136]AU: Would you like to change either “block” or “blocking” here to avoid repetition? Maybe “At the end of the block, a car was stopped squarely across the streetcar tracks in [JL136]the intersection” could work instead?
+[SB137R136]Yes, avoid rep of block/blocking. 
+[KL138R136]Fixed
+[SB139]A mite awkward; “our drive slammed on the brakes so hard” as an alternative? 
+[KL140R139]fixed
+[SB141]Same as a streetcar? They were just on a streetcar, no? 
+[JL142]AU: I suggested placing “number one” (spelled out since this is dialogue) after “streetcar” here to make sure this doesn’t read as “the best/foremost streetcar” and since this order was used elsewhere in the MS (“I was quiet as we took it partway across town and then switched back to streetcar 38”). OK?
+[KL143R142]Fine, thanks!
+[JL144]AU: Would you like to change either “built” or both instances of “buildings” here to avoid repetition?
+[KL145R144]Fixed
+[JL146]AU: Though “advice” is one meaning of “Rat,” it seems as though “council” would be a better translation here, given the context. What do you think?
+[KL147R146]I checked with my friend who lives in Vienna and she thought we should just stick with advice.  Thanks!
+[JL148]AU: Should “is” be added here, since Felix’s English has been perfect up to this point? (If “is” is missing because Sara says this rather than Felix, I’d suggest adding a dialogue tag for clarity.)
+[KL149R148]Yes, I added
+[SB150]Who says? Is this Felix? 
+[KL151R150]Yes, I clarified
+[JL152]AU: I suggested deleting “crystal” here to avoid repetition, since it appears again later in this sentence and in the following sentence as well. OK?
+[KL153R152]Yup, good idea
+[JL154]AU: Should this be changed to “a letter and a number” (O5)?
+[KL155R154]Yes, I fixed
+[SB156]Odd use here as the use of the umlaut is not an opinion. 
+[JL157]AU: I suggested changing this just to avoid using “table” twice in this sentence. OK?
+[KL158R157]Fine with me
+[SB159]Maybe have Sara say with more surprise that she’s explaining the obvious. And also, to be fair, as someone who worked at McDonald’s in the 90s, people did routinely leave their trash on the tables and crew was expected to clean it up. 
+[SB160]Breaking 4th wall. 
+[SB161]Giant is four words down. Don’t need both. Plus huge is repped in next line. 
+[SB162]They hadn’t previously talked about her brother, right? 
+[JL163]AU: Since “exclaimed Felix” appears a few paragraphs above, could either instance of “exclaimed” be changed to “said” to avoid repetition?
+[KL164R163]done
+[SB165]Really overusing this word and not effective here. Already well-described it as towering. Huge here is repetitive. 
+[JL166]I suggested adding a paragraph break here to separate Becca’s actions/thoughts from Sara’s actions/dialogue. 
+[KL167R166]Fine with me!
+[JL168]AU: Should this be changed to “schillings”?
+[SB169R168]Seems so. 
+[JL170]AU: Since Sara’s exact words were “Worse things have happened,” should “could happen” be changed to “had ever happened”?
+[SB171]So streetcar and tram interchangeable? Can establish? This would be new to Becca as well, yes? 
+[JL172]AU: Could this be changed to “Then Sara ushered us off the streetcar and onto the bus” for clarity, or does someone else usher Sara, Felix, and Becca off the streetcar? [JL172]
+[SB173R172]Agree. 
+[KL174R172]Me too!  Much better.  Done!
+[SB175]Maybe something else? This is usually reserved to refer to either the Sex Talk or the Talk black parents give their kids about the police. Distracting given other meanings. 
+[JL176]AU: I changed these lyrics per https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0089750 and several other sources. OK?
+[KL177R176]Fine
+[JL178]AU: Should this question mark be changed to a period?
+[SB179]Earlier in the day had been aqua. I think most will associate aqua with a blue.  
+[KL180R179]Fixed it earlier
+[SB181]She didn’t really say that she would learn to be brave, but that she would learn to deal with fear, which doesn’t feel like the same thing. 
+[KL182R181]fixed
+[JL183]AU: Could either instance of “just” here be deleted to avoid repetition?
+[KL184R183]done
+[JL185]I edited these two song titles per https://www.imdb.com/title/tt0059742/soundtrack and the back-cover image at https://www.amazon.com/Sound-Music-1965-Film-Soundtrack/dp/B00004WFNP. 
+[KL186R185]Thanks
+[JL187]AU: I’m worried that middle-grade readers, most of whom will probably be unfamiliar with the concept of calling cards, may find this passage confusing. Could it be simplified to something like “The phone connection wasn’t always the greatest, and we had to pay for our calls by the minute”? Or could the way that a calling card works be explained in more detail instead?
+[KL188R187]fixed
+[JL189]I changed this per https://en.langenscheidt.com/german-english/peperoni.
+[KL190R189]Fine, thanks
+[SB191]Sense? She’d wanted pepperoni, which is just another form of pork. 
+[KL192R191]I cut her “yuck” comment.
+[JL193]I added this exclamation point per https://shop.hasbro.com/en-us/product/sorry-2013-edition-game:590E1934-5056-9047-F59F-9F4E9B948900. 
+[KL194R193]Okay
+[SB195]This etablished? 
+[JL196]AU: I’m not familiar with this usage of “seep” as a noun (or of “steep” as a noun, for that matter, just in case this was a typo), and I couldn’t find it in any dictionary or through a Google search. Should this be changed to something like “an infuser”? Or could “a seep” just be deleted instead so that this just reads “I scooped some out of the tin and put it into a cloth bag on . . .”?
+[KL197R196]This is interesting. The family I lived with in Austria definitely used the word “seep” to refer to this thing, but it doesn’t appear to be a real word!  They must have made it up/confused it with the English word “steep”
+[SB198]Reps below. 
+[KL199R198]I cut below.
+[SB200]How late is it? Dad clearly not back yet, but not passed midnight, right? 
+[KL201R200]Let’s say it’s around midnight
+[JL202]AU: Could something like “replaced the knob” (followed by a comma) be added here?
+[SB203]Does it get cold at night in the summer in Austria? I know it doesn’t get that hot, but didn’t think it was blanket and hot water bottle weather. 
+[KL204R203]You’re right; I cut the water bottle.  It’s chilly cause of the rain.
+[SB205]Repetitive of above. 
+[SB206]Her reaction to a dog being shot feels a bit unaffected. 
+[SB207]Feels like a political word. Is this what Sara would call it? 
+[KL208R207]fixed
+[JL209]AU: Should this be changed to “slowly”? (I’ve left most mistakes in Sara’s English as is, but I wasn’t sure whether this one was intentional or just a typo.)
+[JL210]AU: I suggested changing this so that it can’t read as though her friend came over the day before Sara left Sarajevo (which would be inconsistent with “But a few weeks later, I was on the bus, alone, on my way to Croatia” a few paragraphs below). Change OK?
+[KL211R210]Works for me!
+[SB212]Really lovely moment. 
+[KL213R212]☺
+[JL214]AU: I changed this per https://en.langenscheidt.com/german-english/polizei. OK?
+[KL215R214]Yup
+[JL216]AU: I changed this just so the sentence wouldn’t read “He’d was now reading…” OK?
+[KL217R216]Yup, works for me!
+[JL218]AU: I found this a bit confusing, as it’s unclear whether the smaller door is cut out of the larger one or whether the smaller door is just next to the larger one. If the former is the case, could this be changed to something like “A smaller door was cut out of the wood of the larger one” for clarity? And if the latter is the case, could this be changed to something like “A smaller door was cut out of the wood next to the larger one” instead?
+[JL219]AU: Should this be changed to “staring”?
+[JL220]I added a paragraph break here to clarify that Becca says “What did that man want?” at the police station (not in response to “Austrians like paperwork”).
+[KL221R220]Fine with me
+[JL222]AU: Since this is the first mention of a line in this scene, could “another” be deleted?
+[KL223R222]Yes, I agree
+[JL224]AU: Should this period be changed to a question mark?
+[JL225]AU: Does Sara say this, or does Felix? Could a dialogue tag be added for clarity?
+[JL226]AU: If Felix says this, could “the” be added here? (It sounds a little awkward to me without it, but that would fit Sara’s dialogue.)
+[JL227]AU: Since there are three instances of characters smiling on this page (besides this one, there’s also “Felix smiled” a few paragraphs above and “Sara said, smiling” in the final paragraph of the 
