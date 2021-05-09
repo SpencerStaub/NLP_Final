@@ -4,6 +4,11 @@
 # Due: 10 May 2021
 
 # ======================================================================================================================
+# This is an alternative version of "definitions.py" whereby PyDictionary is used to pull definitions for a given word
+# from the WordNet corpus reader. The results were more or less the same as "definitions.py": the definition of the
+# closest synonym is generated instead of the given word.
+
+# ======================================================================================================================
 # Importing all necessary libraries
 
 from os import path
