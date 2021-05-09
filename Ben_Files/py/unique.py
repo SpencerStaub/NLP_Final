@@ -4,6 +4,10 @@
 # Due: 10 May 2021
 
 # ======================================================================================================================
+# This file generates a list of all unique words found within a given book and outputs them as a CSV file. In
+# particular, CSV files containing unique words by book and by chapter are generated.
+
+# ======================================================================================================================
 # Importing all necessary libraries
 
 from os import path

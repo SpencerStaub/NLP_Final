@@ -4,6 +4,10 @@
 # Due: 10 May 2021
 
 # ======================================================================================================================
+# This file uses the WordNet corpus reader to find the definitions of all unique words in each of the four books and
+# outputs them as a CSV file.
+
+# ======================================================================================================================
 # Importing all necessary libraries
 
 from os import path

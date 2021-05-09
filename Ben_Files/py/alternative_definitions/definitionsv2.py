@@ -4,6 +4,10 @@
 # Due: 10 May 2021
 
 # ======================================================================================================================
+# This is an alternative version of "definitions.py" whereby BeautifulSoup is used to pull definitions from the HTML
+# code associated with the webpage containing a given word's definition.
+
+# ======================================================================================================================
 # Regarding runtime
 
 # This code takes a ridiculous amount of time to run. In particular, making requests to a webpage and pulling all of the

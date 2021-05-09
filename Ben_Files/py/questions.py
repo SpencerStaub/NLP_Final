@@ -4,6 +4,10 @@
 # Due: 10 May 2021
 
 # ======================================================================================================================
+# This file generates a list of questions on definitions and synonyms of words in a given book. The book and number of
+# questions are decided by user input.
+
+# ======================================================================================================================
 # Importing all necessary libraries
 
 from os import path
