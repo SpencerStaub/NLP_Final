@@ -1,1 +1,61 @@
-README
+There are 7 folders in this directory split into 3 categories: Data, Pure Python Code and a Combination
+
+In order to run the code properly Both Data and preprocesssed_data will need to be downloaded. 
+From there each of the files in each respective individuals directory should run properly with attached README or Code Comments as isnstructions.
+
+--------------------------------------------------------------------------------------------------------
+Data
+--------------------------------------------------------------------------------------------------------
+
+-----------
+Data - Contains raw data of all books used in this analysis
+-----------
+
+-----------
+preprocessed_data - Contains CSV files of the 4 books written by Kristin Levine
+-----------
+
+
+
+--------------------------------------------------------------------------------------------------------
+Pure Python
+--------------------------------------------------------------------------------------------------------
+
+-----------
+preprocessing - Contains a single Python file that transforms the 4 books written by Kristine Levine into the CSV files found in 'preprocessed_data'
+------------
+
+
+------------
+Chris_Files - Contains generated questions based off of Character Entities, Location and Dates. 
+  - Location_Date_Questions - This jupyter notebook contains the ability to select a book from the library and generate key characters and locations within the novel. Additionally, after selecting a chapter and filling in the narrator name The program will generate two types of questions from that chapter. It will additionally show the sentence the question so the user can under what the question is based off of and whether or not they want to use the question in their learning materials.
+------------
+
+------------
+Spencer_Files - Contains generated questions based off of sentence structure. This idea was part of our stretch goal and is not fully complete and ready for production.
+------------
+
+
+
+--------------------------------------------------------------------------------------------------------
+Combination
+--------------------------------------------------------------------------------------------------------
+
+------------
+Ben_Files - Contains data (Raw and clean) and Python files that provide definitions, synonnyms and questions
+  - Data - Contains both raw and cleaned folders
+  - py - Contains 4 Python files that:
+     - definitions - This file uses the WordNet corpus reader to find the definitions of all unique words in each of the four books and outputs them as a CSV file.
+     - synnonysms - This file uses the WordNet corpus reader to find the synonyms of all unique words in each of the four books and outputs them as a CSV file.
+     - questions - This file generates a list of questions on definitions and synonyms of words in a given book. The book and number of questions are decided by user input.
+     - unique -  This file generates a list of all unique words found within a given book and outputs them as a CSV file. In particular, CSV files containing unique words by book and by chapter are generated.
+------------
+Kristin_Files - Contains preprocessed data (stored in Book_ folders) as well as raw data stored in Text Files. Also contains Python files
+  -Preprocess_Text_Files Contains the code to break the original txt files of the books into folders/chapter
+  -Pipeline Contains the code to extract characters, irregular verbs, and speech attribution questions
+  -Quiz A sample quiz for one chapter
+  -Text Files Folder Contains all the original text files
+  -Folders Book 1-8 Contains the text of the books broken down by chapters
+------------
+
+
