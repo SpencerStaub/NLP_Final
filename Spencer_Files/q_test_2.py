@@ -13,35 +13,42 @@ import pke
 import string
 from nltk.corpus import stopwords
 
+
+#import a specific book (manual edit)
 input_file = pd.read_csv("book_3.csv")
 
+#only include lines with Dates, Events, GPE, LOC, Person
 df_test = input_file[input_file['ent_label'].isin(['Date','Event','GPE','LOC','PERSON'])]
 
-#df_test = input_file[input_file['ent_label'].isin([list_of_people])]
-
+#only include sentences with more than two entities 
 df_test = df_test.groupby(['sentence', 'ent_word' ,'ent_label']).size()
 
+#only include sentences with more than two entities 
 df_test_gb = df_test.groupby(['sentence']).size().reset_index()
 
+#only include sentences with more than two entities 
 df_test_gb = df_test_gb[df_test_gb[0] > 2]
 
-print(df_test_gb.head())
 
+#for each sentence extract parts of speech, deposition and create a question
 for i in df_test_gb['sentence']:
     df_subset = input_file[input_file['sentence']==i]
+    #select a sentance that has an nsubj and Person
     subject_line = df_subset[(df_subset['dep']=='nsubj') & (df_subset['ent_label']=='PERSON')]
+    #select the main subject of the sentence
     person_line = df_subset[(((df_subset['dep'] == 'pobj') | (df_subset['dep'] == 'dobj') | (df_subset['dep'] == 'conj')) & (df_subset['ent_label']=='PERSON')) | (((df_subset['dep'] == 'pobj') | (df_subset['dep'] == 'donj') | (df_subset['dep'] == 'conj'))  & (df_subset['pos']=='PRON'))]
 
 
 
-
+    #for each sentence extract various information
     verb_line = df_subset[(df_subset['pos'] == 'VERB') & (df_subset['dep'] == 'ROOT')]
     verb_line_2 = df_subset[(df_subset['pos'] == 'VERB') & (df_subset['dep'] != 'ROOT')]
     object_line = df_subset[((df_subset['dep'] == 'dobj') | (df_subset['dep'] == 'conj')) & (df_subset['ent_label']=='PERSON')]
     conjuct_line = df_subset[(df_subset['dep'] == 'conj')]
     adverb_line = df_subset[(df_subset['dep'] == 'advmod')]
     pronoun_line =  df_subset[(df_subset['pos'] == 'PRON')]
-
+    
+    #get the values of each of the above
     sent = subject_line["sentence"].values
     subject = subject_line["ent_word"].values
     verb = verb_line['tokens'].values
@@ -50,11 +57,6 @@ for i in df_test_gb['sentence']:
     conjuct = conjuct_line['tokens'].values
     adverb = adverb_line['tokens'].values
     pronoun = pronoun_line['tokens'].values    
-
-
-
-
-
 
 
 
